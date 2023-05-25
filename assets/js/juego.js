@@ -1,5 +1,5 @@
 (() => {
-
+    'use strict'
     personajes = [ 'Laura','Alex','Pedro','Villegas' ];
     console.log(personajes);
 })();
