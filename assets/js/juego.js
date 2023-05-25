@@ -1,3 +1,10 @@
+(() => {
+
+    personajes = [ 'Laura','Alex','Pedro','Villegas' ];
+    console.log(personajes);
+})();
+
+
 /**
  * C->tréboles
  * D->diamántes
@@ -38,7 +45,7 @@ const crearDeck = () => {
         }
     }
     deck= _.shuffle( deck );
-    console.log( deck );
+    // console.log( deck );
     return deck;
 }
 crearDeck();
@@ -140,7 +147,7 @@ btnNuevo.addEventListener('click',()=>{
     puntosHTML[1].innerText  = 0;
 
     divCartasComputadora.innerText = '';
-    divCartasJugador.innerHTML     = '';
+    divCartasJugador.innerText     = '';
 
     btnPedir.disabled = false;
     btnDetener.disabled = false;
